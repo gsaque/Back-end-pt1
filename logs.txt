@@ -1,0 +1,71 @@
+[2025-05-15T23:45:46.903Z] [INFO] info: Site Site Exemplo excluído.
+[2025-05-15T23:45:47.029Z] [INFO] info: Usuário testeuser inserido.
+[2025-05-15T23:45:47.032Z] [INFO] info: Usuário testeuser excluído.
+[2025-05-15T23:47:54.801Z] [INFO] Teste: Testando log manual
+[2025-05-15T23:47:54.811Z] [INFO] Log linha 1 excluída do arquivo.
+[2025-05-15T23:47:54.831Z] [INFO] info: Site Site Exemplo inserido.
+[2025-05-15T23:47:54.842Z] [INFO] info: Site Site Exemplo excluído.
+[2025-05-15T23:47:54.853Z] [INFO] info: Usuário testeuser inserido.
+[2025-05-15T23:47:54.856Z] [INFO] info: Usuário testeuser excluído.
+[2025-05-15T23:49:59.926Z] [INFO] error: Erro ao inserir site: Todos os campos do site são obrigatórios.
+[2025-05-15T23:49:59.931Z] [ERROR] Erro: Erro ao inserir site: Todos os campos do site são obrigatórios.
+[2025-05-15T23:49:59.940Z] [INFO] warn: Site TituloInexistente não encontrado para exclusão.
+[2025-05-15T23:49:59.940Z] [ERROR] Erro: Erro ao excluir site: Site não encontrado para exclusão
+[2025-05-15T23:49:59.946Z] [INFO] error: Erro ao inserir usuário: User validation failed: email: Path `email` is invalid (email-invalido-sem-arroba).
+[2025-05-15T23:49:59.946Z] [ERROR] Erro: Erro ao inserir usuário: User validation failed: email: Path `email` is invalid (email-invalido-sem-arroba).
+[2025-05-15T23:49:59.947Z] [INFO] warn: Usuário usuarioQueNaoExiste não encontrado para exclusão.
+[2025-05-15T23:49:59.948Z] [ERROR] Erro: Erro ao excluir usuário: Usuário não encontrado para exclusão
+[2025-05-15T23:57:14.682Z] [INFO] Teste: Testando log manual
+[2025-05-15T23:57:14.693Z] [INFO] Log linha 1 excluída do arquivo.
+[2025-05-15T23:57:14.713Z] [INFO] info: Site Site Exemplo inserido.
+[2025-05-15T23:57:14.733Z] [INFO] info: Site Site Exemplo excluído.
+[2025-05-15T23:57:14.744Z] [INFO] info: Usuário testeuser inserido.
+[2025-05-15T23:57:14.747Z] [INFO] info: Usuário testeuser excluído.
+[2025-05-15T23:57:56.229Z] [INFO] error: Erro ao inserir site: Todos os campos do site são obrigatórios.
+[2025-05-15T23:57:56.233Z] [INFO] error: Erro ao inserir site: Todos os campos do site são obrigatórios.
+[2025-05-15T23:57:56.242Z] [INFO] warn: Site TituloInexistente não encontrado para exclusão.
+[2025-05-15T23:57:56.242Z] [INFO] error: Erro ao excluir site: Site não encontrado para exclusão
+[2025-05-15T23:57:56.253Z] [INFO] error: Erro ao inserir usuário: User validation failed: email: Path `email` is invalid (email-invalido-sem-arroba).
+[2025-05-15T23:57:56.253Z] [INFO] error: Erro ao inserir usuário: User validation failed: email: Path `email` is invalid (email-invalido-sem-arroba).
+[2025-05-15T23:57:56.255Z] [INFO] warn: Usuário usuarioQueNaoExiste não encontrado para exclusão.
+[2025-05-15T23:57:56.255Z] [INFO] error: Erro ao excluir usuário: Usuário não encontrado para exclusão
+[2025-05-18T11:34:06.561Z] [INFO] info: Site Site Exemplo inserido.
+[2025-05-18T11:34:06.581Z] [INFO] info: Site Site Exemplo excluído.
+[2025-05-18T11:34:06.736Z] [INFO] info: Usuário testeuser inserido.
+[2025-05-18T11:34:06.740Z] [INFO] info: Usuário testeuser excluído.
+[2025-05-18T11:34:06.750Z] [INFO] info: Anunciante Empresa XYZ inserido com sucesso.
+[2025-05-18T11:34:06.755Z] [INFO] info: Anunciante Empresa XYZ excluído com sucesso.
+[2025-05-18T11:36:37.927Z] [INFO] error: Erro ao inserir site: Todos os campos do site são obrigatórios.
+[2025-05-18T11:36:37.932Z] [INFO] error: Erro ao listar sites: Falha simulada no banco Site
+[2025-05-18T11:36:37.937Z] [INFO] error: Erro ao buscar site por palavra-chave: Falha simulada no banco Site
+[2025-05-18T11:36:37.938Z] [INFO] error: Erro ao buscar site por título: Falha simulada no banco Site
+[2025-05-18T11:36:37.943Z] [INFO] warn: Site TituloInexistente999 não encontrado para exclusão.
+[2025-05-18T11:36:37.953Z] [INFO] error: Erro ao inserir usuário: Todos os campos de usuário são obrigatórios.
+[2025-05-18T11:36:37.955Z] [INFO] error: Erro ao listar usuários: Falha simulada no banco User
+[2025-05-18T11:36:37.959Z] [INFO] warn: Usuário usuario_inexistente_123 não encontrado para exclusão.
+[2025-05-18T11:36:37.967Z] [INFO] error: Erro ao inserir anunciante: Os campos "nome" e "email" são obrigatórios.
+[2025-05-18T11:36:37.970Z] [INFO] error: Erro ao listar anunciantes: Falha simulada no banco Anunciante
+[2025-05-18T11:36:37.974Z] [INFO] warn: Anunciante NomeQueNaoExiste999 não encontrado para exclusão.
+[2025-05-18T11:44:03.276Z] [INFO] info: Site Site Exemplo inserido.
+[2025-05-18T11:44:03.294Z] [INFO] info: Site Site Exemplo excluído.
+[2025-05-18T11:44:03.307Z] [INFO] info: Usuário testeuser inserido.
+[2025-05-18T11:44:03.312Z] [INFO] info: Usuário testeuser excluído.
+[2025-05-18T11:44:03.323Z] [INFO] info: Anunciante Empresa XYZ inserido com sucesso.
+[2025-05-18T11:44:03.327Z] [INFO] info: Anunciante Empresa XYZ excluído com sucesso.
+[2025-05-18T11:47:10.252Z] [INFO] info: Site Site Exemplo inserido.
+[2025-05-18T11:47:10.268Z] [INFO] info: Site Site Exemplo excluído.
+[2025-05-18T11:47:10.283Z] [INFO] info: Usuário testeuser inserido.
+[2025-05-18T11:47:10.287Z] [INFO] info: Usuário testeuser excluído.
+[2025-05-18T11:47:10.298Z] [INFO] info: Anunciante Empresa XYZ inserido com sucesso.
+[2025-05-18T11:47:10.301Z] [INFO] info: Anunciante Empresa XYZ excluído com sucesso.
+[2025-05-18T11:47:27.434Z] [INFO] error: Erro ao inserir site: Todos os campos do site são obrigatórios.
+[2025-05-18T11:47:27.439Z] [INFO] error: Erro ao listar sites: Falha simulada no banco Site
+[2025-05-18T11:47:27.444Z] [INFO] error: Erro ao buscar site por palavra-chave: Falha simulada no banco Site
+[2025-05-18T11:47:27.445Z] [INFO] error: Erro ao buscar site por título: Falha simulada no banco Site
+[2025-05-18T11:47:27.452Z] [INFO] warn: Site TituloInexistente999 não encontrado para exclusão.
+[2025-05-18T11:47:27.459Z] [INFO] error: Erro ao inserir usuário: Todos os campos de usuário são obrigatórios.
+[2025-05-18T11:47:27.464Z] [INFO] error: Erro ao listar usuários: Falha simulada no banco User
+[2025-05-18T11:47:27.468Z] [INFO] warn: Usuário usuario_inexistente_123 não encontrado para exclusão.
+[2025-05-18T11:47:27.476Z] [INFO] error: Erro ao inserir anunciante: Os campos "nome" e "email" são obrigatórios.
+[2025-05-18T11:47:27.478Z] [INFO] error: Erro ao listar anunciantes: Falha simulada no banco Anunciante
+[2025-05-18T11:47:27.482Z] [INFO] warn: Anunciante NomeQueNaoExiste999 não encontrado para exclusão.
