@@ -10,7 +10,6 @@ async function testarErrosSite() {
   try {
     await db.conectar();
 
-    // 1. Testar insert() com dados incompletos
     try {
       console.log("\nTestando insert() com dados incompletos (Site)");
       await siteController.insert({
@@ -21,7 +20,6 @@ async function testarErrosSite() {
       console.error("Erro esperado em insert Site:", error.message);
     }
 
-    // 2. Testar listar() simulando falha no banco de dados
     try {
       console.log("\nTestando listar() com falha simulada (Site)");
       const originalFind = Site.find;
@@ -35,7 +33,6 @@ async function testarErrosSite() {
       Site.find = Site.find; // garante restauração mesmo em erro
     }
 
-    // 3. Testar buscarPorPalavraChave() com parâmetro inválido (undefined)
     try {
       console.log("\nTestando buscarPorPalavraChave() com valor inválido (Site)");
       await siteController.buscarPorPalavraChave(undefined);
@@ -43,7 +40,6 @@ async function testarErrosSite() {
       console.error("Erro esperado em buscarPorPalavraChave Site:", error.message);
     }
 
-    // 4. Testar buscarPorTitulo() com parâmetro inválido (objeto ao invés de string)
     try {
       console.log("\nTestando buscarPorTitulo() com valor inválido (Site)");
       await siteController.buscarPorTitulo({ titulo: 'abc' }); // objeto inválido
@@ -51,7 +47,6 @@ async function testarErrosSite() {
       console.error("Erro esperado em buscarPorTitulo Site:", error.message);
     }
 
-    // 5. Testar excluirPorTitulo() com título inexistente no banco
     try {
       console.log("\nTestando excluirPorTitulo() com título inexistente (Site)");
       const result = await siteController.excluirPorTitulo('TituloInexistente999');
@@ -73,7 +68,6 @@ async function testarErrosUser() {
   try {
     await db.conectar();
 
-    // 1. Testar insert() com dados incompletos (faltando password e email vazio)
     // Espera-se erro por campos obrigatórios ausentes ou inválidos
     try {
       console.log('\nTestando insert() com dados incompletos (User)');
@@ -82,7 +76,6 @@ async function testarErrosUser() {
       console.error('Erro esperado em insert User:', error.message);
     }
 
-    // 2. Testar listar() simulando falha no banco de dados
     // Sobrescreve temporariamente o método User.find para lançar erro e testar tratamento
     try {
       console.log('\nTestando listar() com falha simulada (User)');
@@ -97,7 +90,6 @@ async function testarErrosUser() {
       User.find = User.find; // garante restauração
     }
 
-    // 3. Testar excluirPorUsername() com username inexistente no banco
     // Espera-se retorno indicando que nada foi excluído (falso ou null)
     try {
       console.log('\nTestando excluirPorUsername() com username inexistente (User)');
@@ -120,7 +112,6 @@ async function testarErrosAnunciante() {
   try {
     await db.conectar();
 
-    // 1. Testar insert() com dados incompletos (faltando email)
     // Espera-se erro por ausência de campo obrigatório email
     try {
       console.log('\nTestando insert() com dados incompletos (Anunciante)');
@@ -129,7 +120,6 @@ async function testarErrosAnunciante() {
       console.error('Erro esperado em insert Anunciante:', error.message);
     }
 
-    // 2. Testar listar() simulando falha no banco de dados
     // Sobrescreve temporariamente Anunciante.find para lançar erro e testar tratamento
     try {
       console.log('\nTestando listar() com falha simulada (Anunciante)');
@@ -144,7 +134,6 @@ async function testarErrosAnunciante() {
       Anunciante.find = Anunciante.find; // garante restauração
     }
 
-    // 3. Testar excluirPorNome() com nome inexistente
     // Espera-se que nenhum anunciante seja excluído, método retorna falso ou equivalente
     try {
       console.log('\nTestando excluirPorNome() com nome inexistente (Anunciante)');
